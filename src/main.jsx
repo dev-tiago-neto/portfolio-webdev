@@ -8,6 +8,7 @@ import Home from "./pages/Home.jsx";
 import App from "./App.jsx";
 import Projetos from "./pages/Projetos.jsx";
 import DetalheProjeto from "./pages/DetalheProjeto.jsx";
+import Sobre from "./pages/Sobre.jsx";
 
 export const routes = [
   {
@@ -18,6 +19,7 @@ export const routes = [
   {
     path: "/sobre",
     name: "Sobre",
+    element: <Sobre />,
   },
   {
     path: "/projetos",
