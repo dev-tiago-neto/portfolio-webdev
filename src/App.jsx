@@ -4,7 +4,7 @@ import { Footer } from "./components/Footer.jsx";
 
 export default function App() {
   return (
-    <div className="bg-secondary-light min-h-screen dark:bg-primary-dark transition duration-300">
+    <div className="bg-secondary-light min-h-screen dark:bg-primary-dark flex flex-col">
       <Header />
       <Outlet />
       <Footer />

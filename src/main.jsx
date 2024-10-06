@@ -3,12 +3,13 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import NotFound from "./pages/NotFound.jsx";
-import Home from "./pages/Home.jsx";
 import App from "./App.jsx";
+import Home from "./pages/Home.jsx";
 import Projetos from "./pages/Projetos.jsx";
 import DetalheProjeto from "./pages/DetalheProjeto.jsx";
 import Sobre from "./pages/Sobre.jsx";
+import Contato from "./pages/Contato.jsx";
+import NotFound from "./pages/NotFound.jsx";
 
 export const routes = [
   {
@@ -33,6 +34,7 @@ export const routes = [
   {
     path: "/contato",
     name: "Contato",
+    element: <Contato />,
   },
 ];
 
